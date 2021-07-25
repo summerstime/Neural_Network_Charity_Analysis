@@ -22,7 +22,8 @@
 	* Activation functions: RELU and SIGMOID 
 	* The compiler optimizer was ADAMAX.
 
-![Original Output](                 Starting_Output.png)
+![Original Output](https://github.com/summerstime/Neural_Network_Charity_Analysis/blob/main/images/Starting_Output.png)
+
 
 ### Optimization Trials
 
@@ -37,7 +38,7 @@
 	* Activation functions: TANH, RELU, and SIGMOID 
 	* The compiler optimizer was ADAM.
 
-![First Optimizer Output](                 Optimizer0.1.png)
+![Optimizer Output0.1](https://github.com/summerstime/Neural_Network_Charity_Analysis/blob/main/images/Optimizer0.1.png)
 
 #### Optimizer1
 
@@ -52,8 +53,9 @@
 	* The compiler optimizer was ADAM.
 	* Total params: 266
 
-![Opto1 Output1](                 Optimizer1Results1.png)
-![Opto1 Output2](                 Optimizer1Results2.png)
+![Optimizer1 Output1](https://github.com/summerstime/Neural_Network_Charity_Analysis/blob/main/images/Opto_Copy1_Results1.png)
+
+![Optimizer1 Output2](https://github.com/summerstime/Neural_Network_Charity_Analysis/blob/main/images/Opto_Copy1_Results2.png)
 
 
 #### Optimizer2
@@ -69,8 +71,9 @@
 	* The compiler optimizer was ADAM.
 	* Total params: 298
 
-![Opto2 Output1](                 Optimizer2Results1.png)
-![Opto2 Output2](                 Optimizer2Results2.png)
+![Optimizer2 Output1](https://github.com/summerstime/Neural_Network_Charity_Analysis/blob/main/images/Opto_Copy2_Results1.png)
+
+![Optimizer2 Output2](https://github.com/summerstime/Neural_Network_Charity_Analysis/blob/main/images/Opto_Copy2_Results2.png)
 
 
 #### Optimizer3
@@ -86,11 +89,12 @@
 	* The compiler optimizer was ADAM.
 	* Total params: 1197
 
-![Opto3 Output1](                 Optimizer3Results1.png)
-![Opto3 Output2](                 Optimizer3Results2.png)
+![Optimizer3 Output1](https://github.com/summerstime/Neural_Network_Charity_Analysis/blob/main/images/Opto_Copy3_Results1.png)
 
+![Optimizer3 Output2](https://github.com/summerstime/Neural_Network_Charity_Analysis/blob/main/images/Opto_Copy3_Results2.png)
 
 
 ## Summary
 * After multiple runs of various models, the best optimizing results captured was 73% accuracy. Which is not bad; but the goal was at least 75%.
-* The Automatic Optimizer utilized to determine the best model. Several different types that were not covered in the course
+* The Automatic Optimizer utilized to determine the best model. Results were still approximately 73%.
+* More trials and testing are needed to reach 75%. 
