@@ -53,9 +53,9 @@
 	* The compiler optimizer was ADAM.
 	* Total params: 266
 
-![Optimizer1 Output1](https://github.com/summerstime/Neural_Network_Charity_Analysis/blob/main/images/Opto_Copy1_Results1.png)
+![Optimizer1 Output1](https://github.com/summerstime/Neural_Network_Charity_Analysis/blob/main/images/Opto_Copy1_Result1.png)
 
-![Optimizer1 Output2](https://github.com/summerstime/Neural_Network_Charity_Analysis/blob/main/images/Opto_Copy1_Results2.png)
+![Optimizer1 Output2](https://github.com/summerstime/Neural_Network_Charity_Analysis/blob/main/images/Opto_Copy1_Result2.png)
 
 
 #### Optimizer2
@@ -71,9 +71,9 @@
 	* The compiler optimizer was ADAM.
 	* Total params: 298
 
-![Optimizer2 Output1](https://github.com/summerstime/Neural_Network_Charity_Analysis/blob/main/images/Opto_Copy2_Results1.png)
+![Optimizer2 Output1](https://github.com/summerstime/Neural_Network_Charity_Analysis/blob/main/images/Opto_Copy2_Result1.png)
 
-![Optimizer2 Output2](https://github.com/summerstime/Neural_Network_Charity_Analysis/blob/main/images/Opto_Copy2_Results2.png)
+![Optimizer2 Output2](https://github.com/summerstime/Neural_Network_Charity_Analysis/blob/main/images/Opto_Copy2_Result2.png)
 
 
 #### Optimizer3
@@ -89,9 +89,9 @@
 	* The compiler optimizer was ADAM.
 	* Total params: 1197
 
-![Optimizer3 Output1](https://github.com/summerstime/Neural_Network_Charity_Analysis/blob/main/images/Opto_Copy3_Results1.png)
+![Optimizer3 Output1](https://github.com/summerstime/Neural_Network_Charity_Analysis/blob/main/images/Opto_Copy3_Result1.png)
 
-![Optimizer3 Output2](https://github.com/summerstime/Neural_Network_Charity_Analysis/blob/main/images/Opto_Copy3_Results2.png)
+![Optimizer3 Output2](https://github.com/summerstime/Neural_Network_Charity_Analysis/blob/main/images/Opto_Copy3_Result2.png)
 
 
 ## Summary
