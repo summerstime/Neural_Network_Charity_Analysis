@@ -12,8 +12,20 @@
 * OneHotEncoder was used to create a dataframe of the transformed data.
 * StandardScaler was used to scale/transform the X training and testing data.
 
+#### Six Questions Answered in the "Aspects of the Trial" of each trial
+	* What variable(s) are considered the target(s) for your model?
+	* What variable(s) are considered to be the features for your model?
+	* What variable(s) are neither targets nor features, and should be removed from the input data? 
+	* How many neurons, Layers, and activation functions did you select for your neural network model, and why? 
+		* Tried verious combinations, not all shown here to see improvement in the overall accuracy. 
+		* Different layers chosen and different activation functions were tried individually with little change. 
+		* Utilized the automatic hyperparamter optimizer in hopes that it would find a satisfactory result. Improvement seen; but not to 75%.
+	* Were you able to achieve the target model performance?  No, refere to screenshots
+	* What steps did you take to try and increase model performance?  Changed dropped columns, binning, activation functions
+
 ### Original Output Without Optimization
-* Aspects of the trial
+
+* Aspects of the Trial
 	* Dropped EIN and NAME
 	* Binned APPLICATION_TYPE, CLASSIFICATION, and ASK_AMT
 	* Hidden nodes layer1 = 80 and layer2 = 30
@@ -29,7 +41,7 @@
 
 #### Optimizer0.1
 
-* Aspects of the trial
+* Aspects of the Trial
 	* Dropped EIN, NAME, STATUS, and ORGANIZATION
 	* Binned APPLICATION_TYPE, CLASSIFICATION, and ASK_AMT
 	* Hidden nodes layer1 = 80 and layer2 = 40
@@ -42,7 +54,7 @@
 
 #### Optimizer1
 
-* Aspects of the trial
+* Aspects of the Trial
 	* Automatic Hyperparameter Optimizer was used.
 	* Dropped EIN, NAME
 	* Binned APPLICATION_TYPE, CLASSIFICATION, and ASK_AMT
@@ -60,7 +72,7 @@
 
 #### Optimizer2
 
-* Aspects of the trial
+* Aspects of the Trial
 	* Automatic Hyperparameter Optimizer was used.
 	* Dropped EIN, NAME, USE_CASE, SPECIAL_CONSIDERATIONS, STATUS, ORGANIZATION
 	* Binned APPLICATION_TYPE, CLASSIFICATION
@@ -78,7 +90,7 @@
 
 #### Optimizer3
 
-* Aspects of the trial
+* Aspects of the Trial
 	* Automatic Hyperparameter Optimizer was used.
 	* Dropped EIN, NAME, USE_CASE, SPECIAL_CONSIDERATIONS, STATUS, ORGANIZATION
 	* No Binning
@@ -96,5 +108,5 @@
 
 ## Summary
 * After multiple runs of various models, the best optimizing results captured was 73% accuracy. Which is not bad; but the goal was at least 75%.
-* The Automatic Optimizer utilized to determine the best model. Results were still approximately 73%.
+* The Automatic Optimizer was utilized to improve the chances of determining the best model. Results were still approximately 73%.
 * More trials and testing are needed to reach 75%. 
